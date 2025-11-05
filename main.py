@@ -14,7 +14,7 @@ import time
 from pystyle import Colors, Colorate, Write, Center
 from discord import Intents
 
-class ShadowControl:
+class t1tanleg1t:
     def __init__(self):
         self.tokens = []
         self.botcount = 0
@@ -153,7 +153,7 @@ TIME ELAPSED: {totaltime:.2f}s
         print(Colorate.Vertical(Colors.purple_to_blue, results))
 
 async def main():
-    control = ShadowControl()
+    control = t1tanleg1t()
     
     control.clearscr()
     control.showBanner()
